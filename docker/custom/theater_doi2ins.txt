@@ -1,0 +1,8 @@
+"doi2ins"
+{
+	"firemodes"
+	{
+		"weapon_doi2ins_stg44"		"full"
+		"weapon_doi2ins_fg42"		"full"
+	}
+}
