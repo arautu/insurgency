@@ -4,7 +4,6 @@
 FROM cm2network/steamcmd
 LABEL maintainer="leandrolive@gmail.com"
 
-ARG PORT=27015
 ARG MMSOURCE_ADRS=https://mms.alliedmods.net/mmsdrop/1.10/mmsource-1.10.7-git968-linux.tar.gz
 ARG MMSOURCE_PKG=mmsource-1.10.7-git968-linux.tar.gz
 ARG SOURCEMOD_ADRS=https://sm.alliedmods.net/smdrop/1.9/sourcemod-1.9.0-git6275-linux.tar.gz
@@ -45,16 +44,22 @@ RUN set -x \
 # RUN set -x \        
 #         && mkdir custom
  
-VOLUME insurgency
-COPY custom/start.sh .
+ARG PORT=27015
+ARG GAMEPATH=/home/steam
+ARG GAMEFOLDER=insurgency-dedicated
+
+VOLUME insurgency-files
+
+COPY --chown=steam custom/start.sh .
 
 # Insert insurgency dynamic libraries to the LD_LIBRARY_PATH. Create enviroment variables
 # for common game settings. 
-ENV LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/home/steam/insurgency-dedicated/bin
+ENV LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:${GAMEPATH}/${GAMEFOLDER}/bin:${GAMEPATH}/${GAMEFOLDER}/addons/metamod/bin
+ENV PATH=${PATH}:${GAMEPATH}/${GAMEFOLDER}:${GAMEPATH}
 ENV GAMEPORT=${PORT}
 
 # Set Entrypoint
-ENTRYPOINT ./start.sh
+ENTRYPOINT [ "start.sh" ] 
 
 # Expose ports
 EXPOSE ${GAMEPORT}

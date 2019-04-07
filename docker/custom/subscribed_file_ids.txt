@@ -1,8 +1,7 @@
 // 859127166 // The Armory: Expanded - 35 Angry Bots
 1312889247  // WWII theater 
-1207457291 // cs_italy_coop checkpoint
+// 1207457291 // cs_italy_coop checkpoint (temporariamente desabilitado)
 573278223 // panama_canal_b2 checkpoint
-650616844 // Estates_b4 checkpoint
 383525894 // khanashin_b8 checkpoint
 813471321 // szepezd_b3_coopv1_2 checkpoint
 623454326 // doi_bridgeatremagen
@@ -14,6 +13,34 @@
 498255733 // clean_sweep_coop_ws
 498252536 // invasion_coop_ws
 283122727 // dusty_anguish_coopv1_1
-
+283125289 // jack_hammer_coopv1_2
+498253639 // amber_spirits_coop
+841479518 // Khe_Sanh
+878666586 // la_drang
+1125220551 // caves_coop
+1264090927 // l4d_airport_terminal_b3
+440046323 // SHELLSHOCK
+1442716625 // vietnam_b2
+1500855044 // l4d_ag_b1
+1501650494 // Docks_coopb2_day
+1501827880 // l4d_ga_b2_day
+1502325909 // l4d_garage_lots_day
+1562834364 // ins_chinatown
+  
+// Mapas rejeitados
+// 334967466 // bridge_coop_ws
+// 488510757 // bb_lighthouse_coop
+// 650616844 // Estates_b4 checkpoint 
+// 1655752799 // phantomfury
+// 1642020227 // insu_baghdadsurge
+// 1643916456 // ins_tunnelrats
+// 1641760188 // ins_terror_road
+// 1655744526 // ins_swatvalley
+// 1655746862 // ins_sadrcity_2019
+// 1641814825 // ins_roadrage
+// 1642088392 // ins_leveled
+// 1642064080 // ins_kabul
+// 1642051447 // ins_fallujah
+// 1642040604 // ins_combatzone
 // 359921104 // NES Super Mario Bros Jump Sound
 // 393475017 // Angry Guy Yelling at Cats Insurgency Bot Voices

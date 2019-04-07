@@ -1,0 +1,53 @@
+drycanal_coop checkpoint
+buhriz_coop checkpoint
+district_coop checkpoint
+embassy_coop checkpoint
+heights_coop checkpoint
+market_coop checkpoint
+ministry_coop checkpoint
+revolt_coop checkpoint
+siege_coop checkpoint
+sinjar_coop checkpoint
+tell_coop checkpoint
+verticality_coop checkpoint
+peak_coop checkpoint
+cs_italy_coop checkpoint
+panama_canal_b2 checkpoint
+khanashin_b8 checkpoint
+szepezd_b3_coopv1_2 checkpoint
+doi_bridgeatremagen checkpoint
+doi_iron_cross checkpoint
+crossbow checkpoint
+launch_control_coop_ws checkpoint
+the_burbs_coop checkpoint
+fortress_coop_ws checkpoint
+clean_sweep_coop_ws checkpoint
+invasion_coop_ws checkpoint
+dusty_anguish_coopv1_1 checkpoint
+jack_hammer_coopv1_2 checkpoint
+amber_spirits_coop checkpoint
+Khe_Sanh checkpoint
+la_drang checkpoint
+caves_coop checkpoint
+l4d_airport_terminal_b3 checkpoint
+shellshock checkpoint
+vietnam_b2 checkpoint
+l4d_ag_b1 checkpoint
+Docks_coopb2_day checkpoint
+l4d_ga_b2_day checkpoint
+l4d_garage_lots_day checkpoint
+ins_chinatown checkpoint
+// bb_lighthouse checkpoint
+// bridge_coop_ws checkpoint
+// Estates_b4 checkpoint
+// phantomfury checkpoint
+// insu_baghdadsurge checkpoint
+// ins_tunnelrats checkpoint
+// ins_terror_road checkpoint
+// ins_swatvalley checkpoint
+// ins_sadrcity_2019 checkpoint
+// ins_roadrage checkpoint
+// ins_leveled checkpoint
+// ins_kabul checkpoint
+// ins_fallujah checkpoint
+// ins_combatzone checkpoint
